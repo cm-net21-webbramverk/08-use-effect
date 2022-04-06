@@ -28,14 +28,14 @@ const Timer = () => {
 	}, [])
 
 	return (
-		<div>
+		<section>
 			<h3> Timer </h3>
 			<p> The time is {time / 1000}! </p>
 			<div>
 				<button disabled={!isPaused} onClick={start}> Start timer </button>
 				<button disabled={isPaused} onClick={stop}> Stop timer </button>
 			</div>
-		</div>
+		</section>
 	)
 }
 

@@ -20,10 +20,10 @@ const Effects = () => {
 	}, [])
 
 	return (
-		<div>
+		<section>
 			<button onClick={() => setX(x + 1)}> Ändra x </button>
 			<button onClick={() => setY(y + 1)}> Ändra y </button>
-		</div>
+		</section>
 	)
 }
 
